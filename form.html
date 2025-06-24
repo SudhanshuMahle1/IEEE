@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="form.css" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+    <h1>Fill Your Details Here:</h1>
+    <form action="./server">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Write your name"><br><br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" placeholder="Write your email">  
+        </div><br>
+        <label for="contact">Contact:</label>
+        <input type="text" name="contact" id="contact" placeholder="Write your Phone No."><br><br>
+        <label for="place">Place:</label>
+        <input type="text" name="place" id="place" placeholder="Write your City"><br><br>
+        <label for="graduation">Year Of Graduation:</label>
+        <input type="text" name="graduation" id="graduation" placeholder="Write...."><br><br>
+        <div>
+            <label for="Message">Feedback:</label><br>
+            <textarea id="Message" rows="3" cols="30"></textarea>
+        </div><br><br>
+        <div>
+            <label for="rating">Rate us our of 5:</label><br/>
+            
+            <input type="radio"name="rating"id="one"value="one"/>
+            <label for="one">1</label><br/>
+            
+            <input type="radio"name="rating"id="two"value="two"/>
+            <label for="two">2</label><br/>
+            
+            <input type="radio"name="rating"id="three"value="three"/>
+            <label for="three">3</label><br/>
+            
+            <input type="radio"name="rating"id="four"value="four"/>
+            <label for="four">4</label><br/> 
+            
+            <input type="radio"name="rating"id="five"value="five"/>
+            <label for="five">5</label><br/> 
+        </div><br><br>
+
+        <button type="submit">SUBMIT</button>
+    </form>
+</div>
+</body>
+</html>
